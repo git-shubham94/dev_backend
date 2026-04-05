@@ -64,7 +64,7 @@ public class SecurityConfig {
 
             System.out.println("✅ Google Login Success - Email: " + email + ", Name: " + name);
 
-            response.sendRedirect("https://devtrails-frontend-main.vercel.app/oauth/callback");
+            response.sendRedirect("https://dev-front-sandy.vercel.app/oauth/callback");
         };
     }
 
@@ -84,7 +84,7 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOriginPatterns(Arrays.asList(
-                "https://devtrails-frontend-main.vercel.app",
+                "https://dev-front-sandy.vercel.app",
                 "http://localhost:5173",
                 "http://localhost:3000"
         ));
